@@ -1,0 +1,23 @@
+  113  git branch -m main
+  114  git config user.name "Jesus Cristian Olvera Solis"
+  115  git config user.email "jcolvera_s@outlook.com"
+  116  git remote add origin https://github.com/jcos-tech/Checkpoint-CristianOlvera.git
+  117  touch main.js index.html
+  118  git add .
+  119  git commit -m "commit 01 CristianOlvera"
+  120  git push origin main
+  121  git branch feature
+  122  git checkout feature
+  123  mkdir Hardware Software SeguridadInformatica
+  124  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  125  git add .
+  126  git commit -m "commit 02 CristianOlvera"
+  127  git push origin feature
+  128  git checkout main
+  129  mv main.js resumenHardware.txt
+  130  mv index.html resumenSoftware.txt
+  131  nano resumenHardware.txt
+  132  nano resumenSoftware.txt
+  133  touch comandos.txt
+  134  history 22
+  135  history 23 > comandos.txt
